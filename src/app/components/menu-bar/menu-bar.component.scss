@@ -1,0 +1,56 @@
+.card-container{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 7px 14px rgba(0,0,0,0.7);
+
+  .card-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+
+    h1{
+      font-size: 1.8rem;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin-left: 10px;
+    }
+
+    img{
+      width: 95px;
+      height: 80px;
+    }
+  }
+
+  .card-item{
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+
+    ul{
+      display: flex;
+      gap: 15px;
+
+      li{
+        list-style-type: none;
+        padding: 10px;
+
+        a{
+          text-decoration: none;
+          padding: 10px;
+          font-size: 1.2rem;
+          color: rgb(26, 25, 25);
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+          &:hover{
+            color: blue;
+            text-decoration: underline;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+}
