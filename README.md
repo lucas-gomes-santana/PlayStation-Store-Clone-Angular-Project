@@ -12,7 +12,7 @@ Este repositório é um projeto feito com o framework Angular que simula de form
 
 <hr>
 
-<img src="https://miro.medium.com/v2/resize:fit:1400/1*cGDDA2mfYkjiIhGaN8gDoA.png" width="600px">
+<img src="https://angular.dev/assets/images/press-kit/angular_wordmark_gradient.png" width="600px">
 
 <hr>
 
